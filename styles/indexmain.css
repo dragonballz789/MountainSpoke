@@ -18,9 +18,9 @@ header {
         justify-content: space-around;
         
     }
-h1 {
-    
-}
+ a:link {color:#e47521}
+
+a:link {text-decoration:none}
     header img {
         padding:2%;
         

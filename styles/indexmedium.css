@@ -1,0 +1,24 @@
+@media only screen and (min-width: 37.5em ) {
+
+    body{
+        padding-left:10%;
+        padding-right:10%; 
+    }
+    #bicyclemenu {
+        display:flex;
+        flex:row wrap;
+        justify-content: space-around;
+        list-style-type: none;
+        color:#e47521;
+        background-color: #242f0e;
+        font-size: 25px;
+        padding-top: 0px;
+        margin-top: 0px;
+        text-decoration: none;
+    }
+        
+    }
+    footer{
+        
+    }
+}

@@ -1,0 +1,42 @@
+* { box-sizing: border-box;} 
+
+    
+body{
+    background-color: #f3e4d8;
+    font-family: 'PT Serif', serif;
+}
+
+header, nav, main, footer {
+  max-width: 2100px;
+   
+   
+}
+header {
+        display: flex;
+        flex:row;
+        background-color: #e47521;
+        justify-content: space-around;
+        
+    }
+h1 {
+    
+}
+    header img {
+        padding:2%;
+        
+    }
+    h1{
+        color: #5e2bb5;
+        font-size: 70px;
+        vertical-align: middle;
+        align-content: center;
+}
+footer{
+    background-color: #242f0e;
+    color: #e47521;
+    display: flex;
+    flex:column;
+    justify-content: center;
+    
+}
+    

@@ -1,8 +1,6 @@
 @media only screen and (min-width: 37.5em ) {
-
-    body{
-        padding-left:10%;
-        padding-right:10%; 
+    header h1 {
+        font-size: 40px;
     }
     #bicyclemenu {
         display:flex;
@@ -15,10 +13,53 @@
         padding-top: 0px;
         margin-top: 0px;
         text-decoration: none;
+        text-align: center;
     }
+    
+   img.mtnlogo {
+    width:9em;
+}
+    img.headermtn {
+    width:9em;
+}       
+    .row_1{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 14px;
+        height:
+    }
+    .tour {
+        position: relative;
+        height: 90%;
+        vertical-align:baseline;
+    }
+    .tour p {
+        color:#e47521;
+        position:absolute;
+        top:15%;
+        left:21%;
+        transform: translate(-50%, -50%);
+    }
+    .tour .tourbtn{
         
+        position: absolute;
+        transform:translate(-50%; -50%);
+        top:20%;
+        left:5%;
     }
-    footer{
-        
+    .tour .tourbtn:hover {
+        background-color: #e47521;
     }
+    .row_2{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 14px;
+    }
+    main img {
+        width:100%;
+        height: 100%;
+    }
+
+
+    
 }

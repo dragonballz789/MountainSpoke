@@ -63,25 +63,3 @@ header, nav, main, footer {
     color:#e47521;
     text-decoration: none;
 }
-.eventtitle {
-    color: #90b742;
-    text-align: center;
-    margin:0px;
-    padding:0px;
-    
-}
-main form {
-    display:flex;
-    flex:column nowrap;
-}
-form label.rform {
-    display:block;
-}
-form label {
-    padding:10px;
-    
-}
-
-form textarea {
-    resize: none;
-}

@@ -1,8 +1,8 @@
 
 {
-“maintenance”: "cost",
-“BikeWash”: 10,
-"Inspection": 20,
+    "services": [{
+        “BikeWash”: 10,
+        "Inspection": 20,
 “BrakeAdjustments”: 25,
 “DerailleurAdjustments”: 25,
 “LubricateChainDeraillesandShiftCables”: 15,
@@ -12,7 +12,8 @@
 “TireTubeReplacement”: 20,
 “BasicService”: 45,
 “FlatRepair”: 7
- 
+    }
+ ]
 }
-
+    
 

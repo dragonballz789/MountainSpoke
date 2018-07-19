@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="adventure+page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/salesmain.css" type="text/css">
+    <link rel="stylesheet" href="styles/salesmedium.css" type="text/css">
+    <link rel="stylesheet" href="styles/saleslarge.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    
+    </head>
+<body>
+    <header class="header" includefile="header.html">
+    </header>
+<main>
+<nav>
+    <ul id="bicyclemenu" class="bicylemenuhide">
+    	   <li class="bicycle active"><a href="index.html">Home</a></li>
+    	   <li class="bicycle"><a href="adventure.html">Adventure Tours</a></li>
+    	   <li class="bicycle"><a href="event.html">Events</a></li>
+    	   <li class="bicycle"><a href="sales.html">Sales</a></li>
+           <li class="bicycle"><a href="service.html">Service</a></li>
+    	   <li class="bicycle"><a href="contact.html">Contact</a></li>
+       
+        </ul>
+    </nav>
+        <section class="bikesales">
+            <p>for sale</p>
+            <ul class ="bicycles">
+            
+            </ul>
+        </section>
+             <section class="bikesales">
+        <div class="bike1">
+        <img src="images/bike200.jpg" alt="bikesale" srcset="images/bike500.jpg 601w, images/bike800.jpg 1051w, images/bike300.jpg 2000w" sizes="(max-width: 600px) 601px, (max-width:1050px) 1050px, (max-width:2000px) 2000px">
+        <p>hello</p>
+        </div>
+        <div class="bike2">
+        <img src="images/bike1_200.jpg" alt="bikesale_1" srcset="images/bike1_500.jpg 601w, images/bike1_800.jpg 1051w, images/bike1_300.jpg 2000w" sizes="(max-width: 600px) 601px, (max-width:1050px) 1050px, (max-width:2000px) 2000px">
+        <p>bike 2</p>
+        </div>
+        <div class="bike3">
+        <img src="images/bike2_200.jpg" alt="bikesale_2" srcset="images/bike2_500.jpg 601w, images/bike2_800.jpg 1051w, images/bike2_300.jpg 2000w" sizes="(max-width: 600px) 601px, (max-width:1050px) 1050px, (max-width:2000px) 2000px">
+        <p>bike 3</p>
+        </div>
+        <p></p>
+    </section>
+    
+
+    </main>
+    
+<footer class="footer" includefile1="footer.html">
+</footer>
+   <script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
+	<script>
+    $(function(){
+            var mtnbikesale = [ {title:'Mountain Bikes', frame:15, wheel:27, speed:7, gears:21, tube:27.5  },
+                               {title:'Diamondback clutch one', frame:15, wheel:27, speed:11, gears:'na', tube:27.5} ];
+            
+            $.each(mtnbikesale, function(index, element){
+            
+                $('.bicycles').append('<li> + element.title + element.frame + element.wheel + element.speed + element.gears + element.tube + </li>');
+            })
+                
+            })
+            
+            
+        
+    </script>
+</body>
+    <script type="text/javascript" src="js/includefooter.js"></script>
+    <script type="text/javascript" src="js/includeheader.js"></script>
+</html>

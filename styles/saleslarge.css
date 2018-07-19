@@ -11,4 +11,16 @@
     .mtn_header {
         justify-content: space-between;
     }
+    .bikesales{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 30vh;
+        grid-column-gap: 10vw;
+        grid-row-gap: 30px;
+        padding-left: 4%;
+        padding-right: 4%;
+        
+        
+    }
+    
 }

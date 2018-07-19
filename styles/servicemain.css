@@ -51,21 +51,6 @@ header, nav, main, footer {
     height:100%;
    
 }
-a:link {color:#e47521}
-a:link {text-decoration:none}
-main{
-    display: grid;
-    grid-template-columns:100%;
-    justify-content: center;
-    
-}
-main img {
-    width:100%;
-    
-}
-h2 {
-    text-align: center;
-}
 .mtn_footer{
     background-color: #242f0e;
     color: #e47521;
@@ -78,4 +63,18 @@ h2 {
     color:#e47521;
     text-decoration: none;
 }
+table, th, td {
+    border:1px solid;
+    border-collapse: collapse;
     
+    
+}
+table th {
+    font-size: 20px;
+}
+table td {
+    font-size: 20px
+}
+table {
+    justify-content: center;
+}

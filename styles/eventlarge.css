@@ -11,4 +11,7 @@
     .mtn_header {
         justify-content: space-between;
     }
+    .eventtitle{
+        font-size:60px;
+    }
 }

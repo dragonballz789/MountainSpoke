@@ -1,6 +1,6 @@
 
-{
-“maintenance”: cost,
+{[
+“maintenance”: "cost",
 “BikeWash”: 10,
 "Inspection": 20,
 “BrakeAdjustments”: 25,
@@ -12,6 +12,7 @@
 “TireTubeReplacement”: 20,
 “BasicService”: 45,
 “FlatRepair”: 7,
+ ]
 }
 
 

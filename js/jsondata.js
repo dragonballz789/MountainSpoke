@@ -1,36 +1,36 @@
 'use strict'
-        var townrequestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
-        var townrequest = new XMLHttpRequest();
-        townrequest.open('GET', townrequestURL, true);
-        townrequest.responseType = "text";
-        townrequest.send();
-        townrequest.onload = function() {
-            var townrequesttext = townrequest.response;
-            var towndata = JSON.parse(townrequesttext);
+        var mtnrequestURL = "https://dragonballz789.github.io/MountainSpoke.github.io/data/services.json";
+        var mtnrequest = new XMLHttpRequest();
+        mtnrequest.open('GET', mtnrequestURL, true);
+        mtnrequest.responseType = "text";
+        mtnrequest.send();
+        mtnrequest.onload = function() {
+            var mtnrequesttext = mtnrequest.response;
+            var mtndata = JSON.parse(mtnrequesttext);
             
        
-                var scost = towndata.towns[0].motto;
-                document.getElementById("").innerHTML=fmotto;
-                var swash = towndata.towns[0].yearFounded;
-                document.getElementById("franklinfounded").innerHTML=fyear;
-                var sinsp = towndata.towns[0].currentPopulation;
-                document.getElementById("franklinpopulation").innerHTML=fpop;
-                var sbrake = towndata.towns[0].averageRainfall;
-                document.getElementById("franklinrainfall").innerHTML=frain;
-                var srail = towndata.towns[1].motto;
-                document.getElementById("greenvillemotto").innerHTML=greenmotto;
-                var schain = towndata.towns[1].yearFounded;
-                document.getElementById("greenvillefounded").innerHTML=greenyear;
-                var stire = towndata.towns[1].currentPopulation;
-                document.getElementById("greenvillepopulation").innerHTML=greenpop;
-                var shift = towndata.towns[1].averageRainfall;
-                document.getElementById("greenvillerainfall").innerHTML=greenrain;
-                var swheel = towndata.towns[3].motto;
-                document.getElementById("springfieldmotto").innerHTML=springmotto;
-                var stube = towndata.towns[3].yearFounded;
-                document.getElementById("springfieldfounded").innerHTML=springyear;
-                var sbasic = towndata.towns[3].currentPopulation;
-                document.getElementById("springfieldpopulation").innerHTML=springpop;
-                var sflat = towndata.towns[3].averageRainfall;
-                document.getElementById("springfieldrainfall").innerHTML=springrain;
+                var scost = mtndata.mtns[0].motto;
+                document.getElementById("mtncost").innerHTML=scost;
+                var swash = mtndata.mtns[0].yearFounded;
+                document.getElementById("mtnwash").innerHTML=swash;
+                var sinsp = mtndata.mtns[0].currentPopulation;
+                document.getElementById("mtninsp").innerHTML=sinsp;
+                var sbrake = mtndata.mtns[0].averageRainfall;
+                document.getElementById("mtnbrake").innerHTML=sbrake;
+                var srail = mtndata.mtns[0].motto;
+                document.getElementById("mtnrail").innerHTML=srail;
+                var schain = mtndata.mtns[0].yearFounded;
+                document.getElementById("mtnchain").innerHTML=schain;
+                var stire = mtndata.mtns[0].currentPopulation;
+                document.getElementById("mtntire").innerHTML=stire;
+                var shift = mtndata.mtns[0].averageRainfall;
+                document.getElementById("mtnshift").innerHTML=shift;
+                var slat = mtndata.mtns[0].motto;
+                document.getElementById("mtnwheel").innerHTML=slat;
+                var stube = mtndata.mtns[0].yearFounded;
+                document.getElementById("mtntube").innerHTML=stube;
+                var sbasic = mtndata.mtns[0].currentPopulation;
+                document.getElementById("mtnbasic").innerHTML=sbasic;
+                var sflat = mtndata.mtns[0].averageRainfall;
+                document.getElementById("mtnflat").innerHTML=sflat;
 }

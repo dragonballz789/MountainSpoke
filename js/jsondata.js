@@ -9,28 +9,28 @@
             var mtndata = JSON.parse(mtnrequesttext);
             
        
-                var scost = mtndata.mtns[0].motto;
+                var scost = mtndata.services[0].motto;
                 document.getElementById("mtncost").innerHTML=scost;
-                var swash = mtndata.mtns[0].yearFounded;
+                var swash = mtndata.services[0].yearFounded;
                 document.getElementById("mtnwash").innerHTML=swash;
-                var sinsp = mtndata.mtns[0].currentPopulation;
+                var sinsp = mtndata.services[0].currentPopulation;
                 document.getElementById("mtninsp").innerHTML=sinsp;
-                var sbrake = mtndata.mtns[0].averageRainfall;
+                var sbrake = mtndata.services[0].averageRainfall;
                 document.getElementById("mtnbrake").innerHTML=sbrake;
-                var srail = mtndata.mtns[0].motto;
+                var srail = mtndata.services[0].motto;
                 document.getElementById("mtnrail").innerHTML=srail;
-                var schain = mtndata.mtns[0].yearFounded;
+                var schain = mtndata.services[0].yearFounded;
                 document.getElementById("mtnchain").innerHTML=schain;
-                var stire = mtndata.mtns[0].currentPopulation;
+                var stire = mtndata.services[0].currentPopulation;
                 document.getElementById("mtntire").innerHTML=stire;
-                var shift = mtndata.mtns[0].averageRainfall;
+                var shift = mtndata.services[0].averageRainfall;
                 document.getElementById("mtnshift").innerHTML=shift;
-                var slat = mtndata.mtns[0].motto;
+                var slat = mtndata.services[0].motto;
                 document.getElementById("mtnwheel").innerHTML=slat;
-                var stube = mtndata.mtns[0].yearFounded;
+                var stube = mtndata.services[0].yearFounded;
                 document.getElementById("mtntube").innerHTML=stube;
-                var sbasic = mtndata.mtns[0].currentPopulation;
+                var sbasic = mtndata.services[0].currentPopulation;
                 document.getElementById("mtnbasic").innerHTML=sbasic;
-                var sflat = mtndata.mtns[0].averageRainfall;
+                var sflat = mtndata.services[0].averageRainfall;
                 document.getElementById("mtnflat").innerHTML=sflat;
 }

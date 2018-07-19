@@ -1,17 +1,17 @@
 
 {
-“maintenance”:"Cost",
-“BikeWash”:10,
-"Inspection":20,
-“BrakeAdjustments”:25,
-“DerailleurAdjustments”:25,
-“LubricateChainDeraillesandShiftCables”:15,
-“PressurizeTires”:5,
-“ShiftingSystemAdjustments”:20,
-“WheelsLaterallyTrued”:20,
-“TireTubeReplacement”:20,
-“BasicService”:45,
-“FlatRepair”:7,
+“maintenance”: "Cost",
+“BikeWash”: 10,
+"Inspection": 20,
+“BrakeAdjustments”: 25,
+“DerailleurAdjustments”: 25,
+“LubricateChainDeraillesandShiftCables”: 15,
+“PressurizeTires”: 5,
+“ShiftingSystemAdjustments”: 20,
+“WheelsLaterallyTrued”: 20,
+“TireTubeReplacement”: 20,
+“BasicService”: 45,
+“FlatRepair”: 7,
 }
 
 

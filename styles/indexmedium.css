@@ -2,20 +2,24 @@
     .mtn_header h1 {
       font-size: 6vw;
     }
-    #bicyclemenu {
+    #bmenu {
         display:flex;
         flex:row wrap;
         justify-content: space-around;
         list-style-type: none;
-        color:#e47521;
+        
         background-color: #242f0e;
         font-size: 25px;
         padding-top: 0px;
         margin-top: 0px;
         text-decoration: none;
         text-align: center;
+        
+        
     }
-    
+    nav ul li{
+        white-space: nowrap;
+    }
    .mtn_header img.mtnlogo {
     width:9em;
 }
@@ -49,6 +53,14 @@
         height: 100%;
     }
 
-
+    nav ul #bicyclemenu li a {
+    
+}
+    nav button{
+        display:none;
+    }
+     nav ul.hide {
+        display:block;
+    }
     
 }

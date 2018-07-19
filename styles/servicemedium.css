@@ -2,12 +2,12 @@
     .mtn_header h1 {
       font-size: 6vw;
     }
-    #bicyclemenu {
+    #bmenu {
         display:flex;
         flex:row wrap;
         justify-content: space-around;
         list-style-type: none;
-        color:#e47521;
+        
         background-color: #242f0e;
         font-size: 25px;
         padding-top: 0px;
@@ -25,5 +25,25 @@
     table {
         margin: 1em auto;
     }
-   
+    a:visited{
+        color:#f3e4d8;
+    }
+    a:link {
+    text-decoration: none;
+}
+    a:hover{
+    background-color: #90b742;
+}
+    nav ul li.active a {
+    background-color: #5e2bb5;
+}
+    nav button{
+        display:none;
+    } 
+    nav ul.hide {
+        display:block;
+    }
+     nav ul li{
+        white-space: nowrap;
+    }
 }

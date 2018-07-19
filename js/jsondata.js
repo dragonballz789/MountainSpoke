@@ -11,7 +11,7 @@
        
                 var scost = mtndata.services[0].maintenance;
                 document.getElementById("mtncost").innerHTML=scost;
-                var swash = mtndata.services[0].BiKeWash;
+                var swash = mtndata.services[0].BikeWash;
                 document.getElementById("mtnwash").innerHTML=swash;
                 var sinsp = mtndata.services[0].Inspection;
                 document.getElementById("mtninsp").innerHTML=sinsp;

@@ -33,4 +33,6 @@
                 document.getElementById("mtnbasic").innerHTML=sbasic;
                 var sflat = mtndata.services[0].FlatRepair;
                 document.getElementById("mtnflat").innerHTML=sflat;
+                var rcost = mtndata.services[0].FlatRepair;
+                document.getElementById("mtnrcost").innerHTML=rcost;
 }

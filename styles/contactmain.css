@@ -63,3 +63,9 @@ header, nav, main, footer {
     color:#e47521;
     text-decoration: none;
 }
+iframe{
+    width:100%;
+}
+form label.contact {
+    display:block;
+}

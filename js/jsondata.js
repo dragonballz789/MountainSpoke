@@ -35,4 +35,26 @@
                 document.getElementById("mtnflat").innerHTML=sflat;
                 var rcost = mtndata.services[0].FlatRepair;
                 document.getElementById("mtnrcost").innerHTML=rcost;
+                var rwash = mtndata.services[0].BikeWash;
+                document.getElementById("mtnrwash").innerHTML=rwash;
+                var rinsp = mtndata.services[0].Inspection;
+                document.getElementById("mtnrinsp").innerHTML=rinsp;
+                var rbrake = mtndata.services[0].BrakeAdjustments;
+                document.getElementById("mtnrbrake").innerHTML=rbrake;
+                var rrail = mtndata.services[0].DerailleurAdjustments;
+                document.getElementById("mtnrrail").innerHTML=rrail;
+                var rchain = mtndata.services[0].LubricateChainDeraillesandShiftCables;
+                document.getElementById("mtnrchain").innerHTML=rchain;
+                var rtire = mtndata.services[0].PressurizeTires;
+                document.getElementById("mtnrtire").innerHTML=rtire;
+                var rhift = mtndata.services[0].ShiftingSystemAdjustments;
+                document.getElementById("mtnrshift").innerHTML=rhift;
+                var rlat = mtndata.services[0].WheelsLaterallyTrued;
+                document.getElementById("mtnrwheel").innerHTML=rlat;
+                var rtube = mtndata.services[0].TireTubeReplacement;
+                document.getElementById("mtnrtube").innerHTML=rtube;
+                var rbasic = mtndata.services[0].BasicService;
+                document.getElementById("mtnrbasic").innerHTML=rbasic;
+                var rflat = mtndata.services[0].FlatRepair;
+                document.getElementById("mtnrflat").innerHTML=rflat;
 }

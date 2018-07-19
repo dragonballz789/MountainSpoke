@@ -16,8 +16,7 @@
 
 
 
-		"paidservices": [maintenance, BikeWash, Inspection, BrakeAdjustments, DerailleurAdjustments, LubricateChainDeraillesandShiftCables, PressurizeTires,
-			ShiftingSystemAdjustments, WheelsLaterallyTrued, TireTubeReplacement, BasicService, FlatRepair
+		"paidservices": ["maintenance", "BikeWash", "Inspection", "BrakeAdjustments", "DerailleurAdjustments", "LubricateChainDeraillesandShiftCables", "PressurizeTires", "ShiftingSystemAdjustments", "WheelsLaterallyTrued", "TireTubeReplacement", "BasicService", "FlatRepair"
 		]
 	}]
 }

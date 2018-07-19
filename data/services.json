@@ -1,7 +1,7 @@
 
 {
 	"services": [{
-		"maintenance": "Cost",
+		"maintenance": Cost,
 		"BikeWash": 10,
 		"Inspection": 20,
 		"BrakeAdjustments": 25,

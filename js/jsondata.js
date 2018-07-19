@@ -9,28 +9,28 @@
             var mtndata = JSON.parse(mtnrequesttext);
             
        
-                var scost = mtndata.services[0].motto;
+                var scost = mtndata.services[0].services;
                 document.getElementById("mtncost").innerHTML=scost;
-                var swash = mtndata.services[0].yearFounded;
+                var swash = mtndata.services[0].BiKeWash;
                 document.getElementById("mtnwash").innerHTML=swash;
-                var sinsp = mtndata.services[0].currentPopulation;
+                var sinsp = mtndata.services[0].Inspection;
                 document.getElementById("mtninsp").innerHTML=sinsp;
-                var sbrake = mtndata.services[0].averageRainfall;
+                var sbrake = mtndata.services[0].BrakeAdjustments;
                 document.getElementById("mtnbrake").innerHTML=sbrake;
-                var srail = mtndata.services[0].motto;
+                var srail = mtndata.services[0].DerailleurAdjustments;
                 document.getElementById("mtnrail").innerHTML=srail;
-                var schain = mtndata.services[0].yearFounded;
+                var schain = mtndata.services[0].LubricateChainDeraillesandShiftCables;
                 document.getElementById("mtnchain").innerHTML=schain;
-                var stire = mtndata.services[0].currentPopulation;
+                var stire = mtndata.services[0].PressurizeTires;
                 document.getElementById("mtntire").innerHTML=stire;
-                var shift = mtndata.services[0].averageRainfall;
+                var shift = mtndata.services[0].ShiftingSystemAdjustment;
                 document.getElementById("mtnshift").innerHTML=shift;
-                var slat = mtndata.services[0].motto;
+                var slat = mtndata.services[0].WheelsLaterallyTrued;
                 document.getElementById("mtnwheel").innerHTML=slat;
-                var stube = mtndata.services[0].yearFounded;
+                var stube = mtndata.services[0].TireTubeReplacement;
                 document.getElementById("mtntube").innerHTML=stube;
-                var sbasic = mtndata.services[0].currentPopulation;
+                var sbasic = mtndata.services[0].BasicService;
                 document.getElementById("mtnbasic").innerHTML=sbasic;
-                var sflat = mtndata.services[0].averageRainfall;
+                var sflat = mtndata.services[0].FlatRepair;
                 document.getElementById("mtnflat").innerHTML=sflat;
 }

@@ -9,7 +9,7 @@
             var mtndata = JSON.parse(mtnrequesttext);
             
        
-                var scost = mtndata.services[0].services;
+                var scost = mtndata.services[0].maintenance;
                 document.getElementById("mtncost").innerHTML=scost;
                 var swash = mtndata.services[0].BiKeWash;
                 document.getElementById("mtnwash").innerHTML=swash;

@@ -9,28 +9,28 @@
             var mtndata = JSON.parse(mtnrequesttext);
             
        
-                var scost = mtndata.maintenance;
+                var scost = mtndata.services.maintenance;
                 document.getElementById("mtncost").innerHTML=scost;
-                var swash = mtndata.BiKeWash;
+                var swash = mtndata.services.BiKeWash;
                 document.getElementById("mtnwash").innerHTML=swash;
-                var sinsp = mtndata.Inspection;
+                var sinsp = mtndata.services.Inspection;
                 document.getElementById("mtninsp").innerHTML=sinsp;
-                var sbrake = mtndata.BrakeAdjustments;
+                var sbrake = mtndata.services.BrakeAdjustments;
                 document.getElementById("mtnbrake").innerHTML=sbrake;
-                var srail = mtndata.DerailleurAdjustments;
+                var srail = mtndata.services.DerailleurAdjustments;
                 document.getElementById("mtnrail").innerHTML=srail;
-                var schain = mtndata.LubricateChainDeraillesandShiftCables;
+                var schain = mtndata.services.LubricateChainDeraillesandShiftCables;
                 document.getElementById("mtnchain").innerHTML=schain;
-                var stire = mtndata.PressurizeTires;
+                var stire = mtndata.services.PressurizeTires;
                 document.getElementById("mtntire").innerHTML=stire;
-                var shift = mtndata.ShiftingSystemAdjustment;
+                var shift = mtndata.services.ShiftingSystemAdjustment;
                 document.getElementById("mtnshift").innerHTML=shift;
-                var slat = mtndata.WheelsLaterallyTrued;
+                var slat = mtndata.services.WheelsLaterallyTrued;
                 document.getElementById("mtnwheel").innerHTML=slat;
-                var stube = mtndata.TireTubeReplacement;
+                var stube = mtndata.services.TireTubeReplacement;
                 document.getElementById("mtntube").innerHTML=stube;
-                var sbasic = mtndata.BasicService;
+                var sbasic = mtndata.services.BasicService;
                 document.getElementById("mtnbasic").innerHTML=sbasic;
-                var sflat = mtndata.FlatRepair;
+                var sflat = mtndata.services.FlatRepair;
                 document.getElementById("mtnflat").innerHTML=sflat;
 }

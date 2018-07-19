@@ -9,28 +9,28 @@
             var mtndata = JSON.parse(mtnrequesttext);
             
        
-                var scost = mtndata.services[0].maintenance;
+                var scost = mtndata.maintenance;
                 document.getElementById("mtncost").innerHTML=scost;
-                var swash = mtndata.services[0].BiKeWash;
+                var swash = mtndata.BiKeWash;
                 document.getElementById("mtnwash").innerHTML=swash;
-                var sinsp = mtndata.services[0].Inspection;
+                var sinsp = mtndata.Inspection;
                 document.getElementById("mtninsp").innerHTML=sinsp;
-                var sbrake = mtndata.services[0].BrakeAdjustments;
+                var sbrake = mtndata.BrakeAdjustments;
                 document.getElementById("mtnbrake").innerHTML=sbrake;
-                var srail = mtndata.services[0].DerailleurAdjustments;
+                var srail = mtndata.DerailleurAdjustments;
                 document.getElementById("mtnrail").innerHTML=srail;
-                var schain = mtndata.services[0].LubricateChainDeraillesandShiftCables;
+                var schain = mtndata.LubricateChainDeraillesandShiftCables;
                 document.getElementById("mtnchain").innerHTML=schain;
-                var stire = mtndata.services[0].PressurizeTires;
+                var stire = mtndata.PressurizeTires;
                 document.getElementById("mtntire").innerHTML=stire;
-                var shift = mtndata.services[0].ShiftingSystemAdjustment;
+                var shift = mtndata.ShiftingSystemAdjustment;
                 document.getElementById("mtnshift").innerHTML=shift;
-                var slat = mtndata.services[0].WheelsLaterallyTrued;
+                var slat = mtndata.WheelsLaterallyTrued;
                 document.getElementById("mtnwheel").innerHTML=slat;
-                var stube = mtndata.services[0].TireTubeReplacement;
+                var stube = mtndata.TireTubeReplacement;
                 document.getElementById("mtntube").innerHTML=stube;
-                var sbasic = mtndata.services[0].BasicService;
+                var sbasic = mtndata.BasicService;
                 document.getElementById("mtnbasic").innerHTML=sbasic;
-                var sflat = mtndata.services[0].FlatRepair;
+                var sflat = mtndata.FlatRepair;
                 document.getElementById("mtnflat").innerHTML=sflat;
 }

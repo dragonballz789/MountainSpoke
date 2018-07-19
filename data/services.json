@@ -1,5 +1,4 @@
-{
-“services”: [
+
 {
 “maintenance”:"Cost",
 “BikeWash”:10,
@@ -14,5 +13,5 @@
 “BasicService”:45,
 “FlatRepair”:7,
 }
-]
-}
+
+

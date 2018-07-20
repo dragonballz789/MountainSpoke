@@ -70,10 +70,10 @@ table, th, td {
     
 }
 table th {
-    font-size: 20px;
+    font-size: 6vw;
 }
 table td {
-    font-size: 20px
+    font-size: 6vw
 }
 table {
     justify-content: center;
@@ -113,5 +113,8 @@ nav ul.hide {
     content:"";
     display:table;
     clear:both;
+}
+h2{
+    text-align: center;
 }
  

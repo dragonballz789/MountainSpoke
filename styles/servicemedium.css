@@ -25,18 +25,14 @@
     table {
         margin: 1em auto;
     }
-    a:visited{
-        color:#f3e4d8;
-    }
+   
     a:link {
     text-decoration: none;
 }
     a:hover{
     background-color: #90b742;
 }
-    nav ul li.active a {
-    background-color: #5e2bb5;
-}
+ 
     nav button{
         display:none;
     } 

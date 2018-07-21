@@ -22,5 +22,10 @@
     .mtn_header img.headermtn {
     width:9em;
 }
-    
+    nav ul.hide {
+    display: block;
+}
+    nav button{
+        display: none;
+    }
 }

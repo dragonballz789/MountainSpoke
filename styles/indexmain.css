@@ -113,4 +113,19 @@ nav ul.hide {
     display:table;
     clear:both;
 }
+.service a {
+    list-style-type: none;
+    text-decoration: none;
+    color:black;
+}
+.sales a {
+    list-style-type: none;
+    text-decoration: none;
+    color:black;
+}
+.adventure a {
+    list-style-type: none;
+    text-decoration: none;
+    color:black;
+}
  

@@ -31,4 +31,19 @@
      nav ul li{
         white-space: nowrap;
     }
+  
+      .bikesales{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        grid-column-gap: 10vw;
+        grid-row-gap: 30px;
+        padding-left: 4%;
+        padding-right: 4%;
+        
+        
+    }
+    .bikesales img{
+        height:300px;
+    }
 }

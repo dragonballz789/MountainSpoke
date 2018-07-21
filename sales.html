@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/salesmain.css" type="text/css">
     <link rel="stylesheet" href="styles/salesmedium.css" type="text/css">
     <link rel="stylesheet" href="styles/saleslarge.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     
     </head>
@@ -27,29 +28,41 @@
        
         </ul>
     </nav>
+        
+        
         <section class="bikesales">
-            <p>for sale</p>
-            <ul class ="bicycles">
-            
-            </ul>
-        </section>
-             <section class="bikesales">
+        
+        <div class="bike">
+        <img src="images/yellowbike300.jpg" alt="yellowbike" srcset="images/yellowbike300.jpg 601w, images/yellowbike800.jpg 1051w, images/yellowbike300.jpg 2000w" sizes="(max-width: 600px) 601px, (max-width:1050px) 1050px, (max-width:2000px) 2000px">
+        <p id="spot">Slash 9.9
+            $299.99<i style="font-size:24px" class="fa">&#xf103;</i> </p>
+        <p id="sale">15.5" Frame<br>
+            Wheel Size 29"<br>
+            Tube Size 29 x 2.40"<br>
+            12 Speed</p>
+        </div>
         <div class="bike1">
-        <img src="images/bike200.jpg" alt="bikesale" srcset="images/bike500.jpg 601w, images/bike800.jpg 1051w, images/bike300.jpg 2000w" sizes="(max-width: 600px) 601px, (max-width:1050px) 1050px, (max-width:2000px) 2000px">
-        <p>hello</p>
+        <img src="images/silverbike.jpg" alt="silverbike" srcset="images/silverbike.jpg 601w, images/silverbike.jpg 1051w, images/silverbike.jpg 2000w" sizes="(max-width: 600px) 601px, (max-width:1050px) 1050px, (max-width:2000px) 2000px">
+        <p id="spot1">GT Men's Aggessor Comp 27.5" Mountain Bike<br>
+            $499.99 <i style="font-size:24px" class="fa">&#xf103;</i> </p>
+            <p id="sale1">15" Frame<br>
+            Wheel Size 27.5"
+            7 Speed<br>
+            21 Gears<br>
+            Tube Size 27.5 x 2.10"</p>
         </div>
         <div class="bike2">
-        <img src="images/bike1_200.jpg" alt="bikesale_1" srcset="images/bike1_500.jpg 601w, images/bike1_800.jpg 1051w, images/bike1_300.jpg 2000w" sizes="(max-width: 600px) 601px, (max-width:1050px) 1050px, (max-width:2000px) 2000px">
-        <p>bike 2</p>
+        <img src="images/bluebike300.jpg" alt="bluebike" srcset="images/bluebike300.jpg 601w, images/bluebike300.jpg 1051w, images/bluebike300.jpg 2000w" sizes="(max-width: 600px) 601px, (max-width:1050px) 1050px, (max-width:2000px) 2000px">
+        <p id="spot2">Diamond Clutch 1<br>
+            $399.99 <i style="font-size:24px" class="fa">&#xf103;</i></p>
+        <p id="sale2">Frame Size 15"<br>
+            Wheel Size 27.5"<br>
+            Tube Size 27.5" x 2.35"<br>
+            11 Speed</p>
         </div>
-        <div class="bike3">
-        <img src="images/bike2_200.jpg" alt="bikesale_2" srcset="images/bike2_500.jpg 601w, images/bike2_800.jpg 1051w, images/bike2_300.jpg 2000w" sizes="(max-width: 600px) 601px, (max-width:1050px) 1050px, (max-width:2000px) 2000px">
-        <p>bike 3</p>
-        </div>
-        <p></p>
+       
     </section>
     
-
     </main>
     
 <footer class="footer" includefile1="footer.html">
@@ -57,23 +70,29 @@
    <script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
 	<script>
     $(function(){
-            var mtnbikesale = [ {title:'Mountain Bikes', frame:15, wheel:27, speed:7, gears:21, tube:27.5  },
-                               {title:'Diamondback clutch one', frame:15, wheel:27, speed:11, gears:'na', tube:27.5} ];
-            
-            $.each(mtnbikesale, function(index, element){
-            
-                $('.bicycles').append('<li> + element.title + element.frame + element.wheel + element.speed + element.gears + element.tube + </li>');
-            })
-                
-            })
-            
-            
+        $("#spot").click(function(){
+            $("#sale").slideToggle("slow");
+        });
         
+        });
+   
+             $(function(){
+        $("#spot1").click(function(){
+            $("#sale1").slideToggle("slow");
+        });
+        
+        });
+      
+         $(function(){
+        $("#spot2").click(function(){
+            $("#sale2").slideToggle("slow");
+        });
+        
+        });
     </script>
 </body>
     <script type="text/javascript" src="js/includefooter.js"></script>
     <script type="text/javascript" src="js/includeheader.js"></script>
-    <script type="text/javascript" src="js/active.js"></script>
     <script type="text/javascript" src="js/activetab.js"></script>
     <script type="text/javascript" src="js/navbar.js"></script>
 

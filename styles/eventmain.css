@@ -32,7 +32,7 @@ img {
 }
 body{
     background-color: #f3e4d8;
-    font-family: 'PT Serif', serif;
+     font-family: 'Anton', serif;
     padding-left:4%;
     padding-right:4%;   
 }
@@ -125,4 +125,23 @@ nav ul.hide {
     display:table;
     clear:both;
 }
- 
+#date {
+    font-size: 5vw;
+}
+#reg{
+    font-size: 4vw;
+}
+#regevent {
+    font-size: 4vw;
+}
+form textarea{
+    resize:none;
+    
+}
+
+form div{
+    padding:5px;
+}
+footer{
+    padding-top: 5px;
+}

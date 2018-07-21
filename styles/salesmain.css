@@ -25,12 +25,13 @@
     padding-top: 2%;
     padding-bottom: 2%;
 }
-    
+
 body{
     background-color: #f3e4d8;
-    font-family: 'PT Serif', serif;
+     font-family: 'Anton', serif;
     padding-left:4%;
-    padding-right:4%;   
+    padding-right:4%; 
+    
 }
 
 header, nav, main, footer {
@@ -55,18 +56,26 @@ header, nav, main, footer {
     display: grid;
     grid-template-columns: 100%;
    
+  
 }
-
+html,body{
+    height:100%;
+}
 .mtn_footer{
     background-color: #242f0e;
     color: #e47521;
-    text-align: center;
-    
-    
+    display:flex;
+    justify-content: center;
+    flex:column;
+    margin-top: 200px;
 }
+
 .mtn_footer a{
     color:#e47521;
     text-decoration: none;
+}
+footer{
+    margin-bottom: 10px;
 }
 main img {
     width:100%;
@@ -108,4 +117,13 @@ nav ul.hide {
     display:table;
     clear:both;
 }
- 
+#sale2{
+    display:none;
+}
+#sale1{
+    display:none;
+}
+#sale{
+    display: none;
+    
+}

@@ -28,7 +28,7 @@
     
 body{
     background-color: #f3e4d8;
-    font-family: 'PT Serif', serif;
+    font-family: 'Anton', serif;
     padding-left:4%;
     padding-right:4%;   
 }
@@ -74,9 +74,7 @@ nav ul {
     padding:0;
     margin:0;
 }
-nav button {
-    display:block;
-}
+
 nav ul li a {
     display:block;
     padding: .8rem 2%;
@@ -105,4 +103,19 @@ nav ul.hide {
     display:table;
     clear:both;
 }
- 
+main a {
+    float:right;
+}
+footer {
+    padding-top: 5px;
+}
+main p{
+    text-align: center;
+}
+main form textarea{
+    resize: none;
+}
+input {
+    margin:12px;
+    padding:6px;
+}

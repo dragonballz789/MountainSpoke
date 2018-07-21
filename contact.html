@@ -26,17 +26,20 @@
        
         </ul>
     </nav>
-    <p>We are located at 3950 Valley Commons Drive Bozeman, MT</p>
+    <p>We are located at<br> 3950 Valley Commons Drive<br> Bozeman, MT</p>
     
-    <p>Please contact us</p>
+    <p>Please contact us by <br> 
+        Phone 1-800-555-7878<br>
+        or</p>
     
     <form action="email">
         <fieldset class="contactus">
             <legend>Contact Us</legend>
-            <label class="contact">Fullname<input type="text" name="Fullname"></label>
-            <label class="contact">E-Mail<input type="email" name="email"></label>
-            <textarea>comments</textarea>
+            <label class="contact required">Fullname<input type="text" name="Fullname" required></label>
+            <label class="contact">E-Mail<input type="email" name="email" required></label>
+            <textarea rows ="3" cols="40" name="comments" maxlength="500" wrap="hard"></textarea>
         </fieldset>
+        <input type="submit" value="Submit">
     </form>
     
     <a href ="https://goo.gl/maps/iCcgc82anZS2">Location map</a>
@@ -49,7 +52,6 @@
 </body>
     <script type="text/javascript" src="js/includefooter.js"></script>
     <script type="text/javascript" src="js/includeheader.js"></script>
-    <script type="text/javascript" src="js/active.js"></script>
     <script type="text/javascript" src="js/activetab.js"></script>
     <script type="text/javascript" src="js/navbar.js"></script>
 

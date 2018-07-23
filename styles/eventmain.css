@@ -75,7 +75,7 @@ header, nav, main, footer {
 }
 main form {
     display:flex;
-    flex:column nowrap;
+    flex-flow:column nowrap;
 }
 form label.rform {
     display:block;

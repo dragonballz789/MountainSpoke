@@ -70,8 +70,7 @@ h2 {
 .mtn_footer{
     background-color: #242f0e;
     color: #e47521;
-    display: flex;
-    flex:column;
+    text-align: center;
     justify-content: center;
     
 }
